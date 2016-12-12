@@ -12,6 +12,11 @@
     "karma.conf.js",
     "angular-typeahead.js"
   ],
+  "overrides": {
+    "corejs-typeahead": {
+      "main": "bower_components/corejs-typeahead/dist/typeahead.bundle.min.js"
+    }
+  },
   "dependencies": {
     "corejs-typeahead": "~1.0.1"
   },
